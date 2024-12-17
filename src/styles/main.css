@@ -1,0 +1,14 @@
+@import "normolize.css";
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f7f5f7;   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#root{
+    max-width: 1440px;
+    margin: 0 auto;
+}

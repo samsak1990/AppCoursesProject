@@ -1,12 +1,12 @@
 import React from 'react';
+import HeaderComp from './components/views/HeaderComp';
 
 
 function App() {
   return (
-    <div >
-      <p>Hello World!</p>
-      <a href='google.com'>feaf</a>
-    </div>
+    <>
+      <HeaderComp/>
+    </>
   );
 }
 
