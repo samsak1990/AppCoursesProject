@@ -7,6 +7,7 @@ const Menu = {
         padding: 0;
         font-size: 10px;
         align-items: center;
+        color: #6b7280;
     `,
     Links: styled.li`
         list-style: none;

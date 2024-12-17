@@ -7,10 +7,9 @@ const MenuComp = ()=>{
     return(
         <Menu.MenuContainer>
             {
-                menuLinks.map(link=>{
-                    console.log(link)
+                menuLinks.map((link, i)=>{
                     return (
-                        <Menu.Links>{link.name}</Menu.Links>
+                        <Menu.Links key={i}>{link.name}</Menu.Links>
                     )
                 })
             }
