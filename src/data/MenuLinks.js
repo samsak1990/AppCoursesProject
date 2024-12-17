@@ -1,7 +1,7 @@
-const menuLinks = [
+const mainMenuLinks = [
     {name: 'О платформе'},
     {name: 'Тарифы'},
     {name: 'Справочный центр'}
 ]
 
-export default menuLinks
+export default mainMenuLinks

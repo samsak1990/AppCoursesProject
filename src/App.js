@@ -1,11 +1,11 @@
 import React from 'react';
-import HeaderComp from './components/views/HeaderComp';
+import Main from './components/pages/Main';
 
 
 function App() {
   return (
     <>
-      <HeaderComp/>
+      <Main/>
     </>
   );
 }

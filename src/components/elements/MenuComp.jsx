@@ -1,13 +1,12 @@
 import React from "react";
 import Menu from "../../styles/elements/Menu.css";
-import menuLinks from "../../data/MenuLinks";
 
 
-const MenuComp = ()=>{
+const MenuComp = ({setLinks})=>{
     return(
         <Menu.MenuContainer>
             {
-                menuLinks.map((link, i)=>{
+                setLinks.map((link, i)=>{
                     return (
                         <Menu.Links key={i}>{link.name}</Menu.Links>
                     )
