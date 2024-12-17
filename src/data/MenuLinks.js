@@ -4,4 +4,11 @@ const mainMenuLinks = [
     {name: 'Справочный центр'}
 ]
 
-export default mainMenuLinks
+const footerMenuLinks = [
+    {name: 'Возможности'},
+    {name: 'Тарифы'},
+    {name: 'Справочный центр'},
+    {name: 'Правовая политика'}
+]
+
+export {mainMenuLinks, footerMenuLinks}

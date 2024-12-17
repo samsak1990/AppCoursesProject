@@ -17,7 +17,7 @@ const Menu = {
         cursor: pointer;
         :last-child{
             margin-right: 0;
-        }
+        };
     `
 }
 
