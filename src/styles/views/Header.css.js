@@ -5,7 +5,7 @@ const Header = styled.header`
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background-color: #FEFEFE;
+    background-color:none;
     height: 74px;
 `
 

@@ -1,5 +1,5 @@
 const mainMenuLinks = [
-    {name: 'О платформе', href: '/'},
+    {name: 'О платформе', href: ''},
     {name: 'Тарифы', href: 'tariffs'},
     {name: 'Справочный центр', href: 'faq'},
 ]

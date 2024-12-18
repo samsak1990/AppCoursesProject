@@ -6,8 +6,8 @@ import { footerMenuLinks } from "../../data/MenuLinks";
 const FooterComp = ()=>{
     return(
         <Footer.FooterContainer>
-            <MenuComp setLinks={footerMenuLinks}></MenuComp>
-            <Footer.TextRights>@2024, все права защищены</Footer.TextRights>
+                <MenuComp setLinks={footerMenuLinks}></MenuComp>
+                <Footer.TextRights>@2024, все права защищены</Footer.TextRights>
         </Footer.FooterContainer>
     )
 }
