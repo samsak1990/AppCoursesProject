@@ -1,5 +1,6 @@
 import React from "react";
 import Menu from "../../styles/elements/Menu.css";
+import { NavLink } from "react-router-dom";
 
 
 const MenuComp = ({setLinks})=>{
@@ -8,7 +9,9 @@ const MenuComp = ({setLinks})=>{
             {
                 setLinks.map((link, i)=>{
                     return (
-                        <Menu.Links key={i}>{link.name}</Menu.Links>
+                        <Menu.Links key={i}>
+                            <NavLink to={link.href} className={({ isActive }) => isActive ? 'active' : ''}>{link.name}</NavLink>
+                        </Menu.Links>
                     )
                 })
             }

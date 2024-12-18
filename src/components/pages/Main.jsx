@@ -1,16 +1,15 @@
-import React from "react";
-import HeaderComp from "../views/HeaderComp";
-import FooterComp from "../views/FooterComp";
-import Steps from "./Steps";
+import React from "react"
+import { Outlet } from "react-router-dom";
+import HeaderComp from "../views/HeaderComp"
+import FooterComp from "../views/FooterComp"
 
 const Main = ()=>{
     return(
         <>
             <HeaderComp></HeaderComp>
-            <Steps></Steps>
+                <Outlet/>
             <FooterComp></FooterComp>
-        </>
-        
+        </> 
     )
 }
 

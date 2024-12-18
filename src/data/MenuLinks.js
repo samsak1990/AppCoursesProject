@@ -1,14 +1,14 @@
 const mainMenuLinks = [
-    {name: 'О платформе'},
-    {name: 'Тарифы'},
-    {name: 'Справочный центр'}
+    {name: 'О платформе', href: '/'},
+    {name: 'Тарифы', href: 'tariffs'},
+    {name: 'Справочный центр', href: 'faq'},
 ]
 
 const footerMenuLinks = [
-    {name: 'Возможности'},
-    {name: 'Тарифы'},
-    {name: 'Справочный центр'},
-    {name: 'Правовая политика'}
+    {name: 'Возможности', href: 'variants'},
+    {name: 'Тарифы', href: 'tariffs'},
+    {name: 'Справочный центр', href: 'faq'},
+    {name: 'Правовая политика', href: 'rights'}
 ]
 
 export {mainMenuLinks, footerMenuLinks}
