@@ -9,7 +9,7 @@ const Footer = {
         width: 100%;
         height: 185px;
         background: inherit;
-        padding-top: 55px;
+        padding: 20px 0;
     `,
     TextRights: styled.p`
         font-size: 14px;

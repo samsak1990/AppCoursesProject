@@ -1,5 +1,5 @@
 import React from "react";
-import Buttons from "../../styles/elements/ButtonsHeader.css";
+import Buttons from "../../../styles/elements/forHeader/ButtonsHeader.css";
 
 const ButtonsHeader = ()=>{
     return(

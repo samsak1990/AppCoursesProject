@@ -1,6 +1,6 @@
 import React from "react";
 import MenuComp from "../elements/MenuComp";
-import ButtonsHeader from "../elements/ButtonsHeader";
+import ButtonsHeader from "../elements/forHeader/ButtonsHeader";
 import Header from "../../styles/views/Header.css";
 import {mainMenuLinks} from "../../data/MenuLinks";
 import ContentWrapper from "../../styles/styles.css";

@@ -15,9 +15,12 @@ const Menu = {
         margin: 0;
         margin-right: 25px;
         cursor: pointer;
-        :last-child{
+        &:last-child{
             margin-right: 0;
         };
+        &:hover{
+            text-decoration: underline;   
+        }
     `
 }
 
