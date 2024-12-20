@@ -45,9 +45,9 @@ const VariantsCSS = {
         padding: 15px 20px;
         border-radius: 7px;
         cursor: pointer;
-        color: ${props => props.fontColor};
-        background-color: ${props => props.backgroundColor};
-        border: ${props => props.border};
+        color: ${props => props.colorFont};
+        background-color: ${props => props.colorBackground};
+        border: ${props => props.borderType};
     `,
     TitleH2: styled.h2`
         font-size: 35px;

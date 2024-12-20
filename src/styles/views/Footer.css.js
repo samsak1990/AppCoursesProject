@@ -7,7 +7,8 @@ const Footer = {
         align-items: center;
         justify-content: space-between;
         width: 100%;
-        height: 185px;
+        min-height: 150px;
+        height: 150px;
         background: inherit;
         padding: 20px 0;
     `,

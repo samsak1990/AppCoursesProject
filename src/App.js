@@ -1,6 +1,5 @@
 import React from 'react';
 import Main from './components/pages/Main';
-import Steps from './components/pages/Steps';
 import Tariffs from './components/pages/Tariffs';
 import About from './components/pages/About';
 import Variants from './components/pages/Variants';
@@ -16,7 +15,6 @@ function App() {
           <Route path="/" element={<Main/>}>
             <Route path="/" element={<About/>} />
             <Route path='*' element={<Page404/>}/>
-            <Route path="/steps" element={<Steps/>} /> 
             <Route path="/tariffs" element={<Tariffs/>} />
             <Route path="/variants" element={<Variants/>} />
             </Route> 
