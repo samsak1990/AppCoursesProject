@@ -26,4 +26,4 @@ const VariantsContentData = [
     },
 ]
 
-export default VariantsContentData
+export {VariantsContentData}

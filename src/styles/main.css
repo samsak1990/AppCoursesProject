@@ -9,7 +9,6 @@ body{
     background-color: #f7f5f7;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
-    line-height: 17px;
 }
 #root{
     display: flex;
