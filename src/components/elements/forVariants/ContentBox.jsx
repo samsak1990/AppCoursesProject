@@ -9,7 +9,7 @@ const ContentBox = ()=>{
             {
                 Data.map((box, i) =>{
                     return(
-                        <CSS.BoxAlone reverse={ i%2===0 ? true : false}>
+                        <CSS.BoxAlone dataReverse={ i%2===0 ? true : false}>
                             <CSS.BoxAloneImage>
                                 <img src={box.href} alt={box.name} key={i}/>
                             </CSS.BoxAloneImage>

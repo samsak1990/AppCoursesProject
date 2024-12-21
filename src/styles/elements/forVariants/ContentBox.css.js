@@ -12,7 +12,7 @@ const CSS = {
         display: flex;
         justify-content: space-between;
         align-items: stretch;
-        flex-direction: ${props => props.reverse ? 'row' : 'row-reverse'};
+        flex-direction: ${props => props.dataReverse ? 'row' : 'row-reverse'};
         gap:20px;
     `,
     BoxAloneImage: styled.div`
@@ -97,7 +97,7 @@ const CSS = {
             line-height: 30px;
             text-align: left;
             width: 100%;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
         };
         p{  
             position: absolute;
@@ -110,7 +110,6 @@ const CSS = {
     `,
     BoxAloneText_BG: styled.div`
         position: absolute;
-        /* border: 1px solid red; */
         margin: 0 auto;
         z-index: -1;
         span{
