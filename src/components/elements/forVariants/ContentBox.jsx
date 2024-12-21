@@ -9,7 +9,7 @@ const ContentBox = ()=>{
             {
                 Data.map((box, i) =>{
                     return(
-                        <CSS.BoxAlone reverse={ i%2===0 ? false : true}>
+                        <CSS.BoxAlone reverse={ i%2===0 ? true : false}>
                             <CSS.BoxAloneImage>
                                 <img src={box.href} alt={box.name} key={i}/>
                             </CSS.BoxAloneImage>
@@ -19,7 +19,11 @@ const ContentBox = ()=>{
                                     <span>{box.name}</span>
                                 </CSS.BoxAloneText_BG>) 
                                 }
-                                
+                                <div className="extra">
+                                    <h3>{box.h3 && box.h3}</h3>
+                                    {box.p && <p>{box.p}</p>}
+                                    {box.extra && box.extra}
+                                </div>
                             </CSS.BoxAloneText>
                         </CSS.BoxAlone>
                     )
